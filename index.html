@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<body>
+      <style>
+             body{
+                  background:lightyellow;
+                  font-family:Arial,sans-serif,Helvetica;
+                  text-align: center;
+                 }
+
+               nav{
+                    background:lightgreen;
+                    height: 50p
+                  }
+              h1{
+
+                       border-bottom: 1px solid black;
+                   }
+
+               h3{
+
+                         border-bottom: 1px solid black;
+                       }
+
+
+       </style>
+
+       <h1 style="color:tomato;">¿QUE TANTO CONOCES DE LA GASTRONOMIA MEXI-PERUANA?</h1>
+
+       <h2 style="color:green; "> Dos pesos pesados de la cocina en América Latina: México VS Perú  </h2>
+      <h2 style="color:green;"> Las más conocidas fuera de la región, las más variadas y -en opinion de muchos- también las más sabrosas.</h2>
+       <img  width="500px" alt="Foto de comida" src="https://larepublica.pe/resizer/Qds8GByQYBUzUh135eRgcicUsFc=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/2N7NWN3Z2FHEBFIUX657KVF7DA.png"/>
+
+       <h3 style="color:strong black; "> ¿Que opinas tú? Escribe tu nombre: </h3>
+
+       <input type = "text" id="input" value="">
+       <button  onclick="desplega()">Juguemos</button>
+
+       <div id="myDIV" style="display:none">
+
+
+       <nav>
+            <article>
+                    <h1 style="color:tomato;">  DESAFIATE Y RESPONDE </h1>
+                    <h2>Si te consideras un fanático de la comida Mexicana... ¿Qué ingredientes principales lleva el Mole?</h2>
+
+               <br>
+                       <input type="radio" name="mole">
+                       <button id="0"> 1. Mayonesa, tomate y cebolla </button><br>
+
+                       <input type="radio"  name="mole" >
+                       <button id="1"> 2. Chiles, chocolates y nueces </button><br>
+
+                       <input type="radio" name="mole">
+                       <button id="2"> 3. Chile, pasta y queso </button><br>
+
+               <br>
+                   <h2>Adivina adivinador...¿Sabes cuántas variedades de papa tiene el Perú?</h2>
+
+                      <input type="radio" name="papa">
+                      <button id="3"> 1. 25 variedades de papas </button><br>
+
+                      <input type="radio"  name="papa" >
+                      <button id="4"> 2. Más de 100 variedades pero menos de 300 </button><br>
+
+                      <input type="radio" name="papa">
+                      <button id="5"> 3. Más de 3500 variedades  </button><br>
+              <br>
+
+                   <h2>¿Que platillo lleva los mismos ingredientes tanto de Perú como de México?</h2>
+
+                     <input type="radio" name="platillo">
+                     <button id="6"> 1. Arroz con pollo </button><br>
+
+                     <input type="radio"  name="platillo" >
+                     <button id="7"> 2. Pipian </button><br>
+
+                     <input type="radio" name="platillo">
+                     <button id="8"> 3. Cau cau </button><br>
+
+               <br>
+                     <button type="button" onclick="myFunction()">VER RESPUESTA</button>
+
+
+    </div>
+          </article>
+
+
+
+
+<script>
+
+
+function myFunction(){
+  document.getElementById("0").style.color = "red";
+  document.getElementById("1").style.color = "green";
+  document.getElementById("2").style.color = "red";
+  document.getElementById("3").style.color = "red";
+  document.getElementById("4").style.color = "red";
+  document.getElementById("5").style.color = "green";
+  document.getElementById("6").style.color = "green";
+  document.getElementById("7").style.color = "red";
+  document.getElementById("8").style.color = "red";
+
+}
+
+
+
+
+function desplega(){
+  document.getElementById("myDIV").style.display = "block";
+  }
+{
+ }
+
+</script>
+
+
+</body>
+</html>
